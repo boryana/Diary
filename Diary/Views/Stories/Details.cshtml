@@ -1,0 +1,58 @@
+﻿@model Diary.Models.Story
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Story</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.storyTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.storyTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dateStory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateStory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rateOfStory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rateOfStory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.textStory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.textStory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.imageStory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.imageStory)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.storyId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

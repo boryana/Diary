@@ -1,0 +1,65 @@
+﻿@using System.Web.Configuration;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="@Url.Content("~/Content/themes/base/minified/jquery-ui.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Scripts/jquery-ui.min.css")" rel="stylesheet" />
+    
+    <script src="@Url.Content("~/Script/jquery-ui-1.11.2.min.js")"></script>
+    <script src="@Url.Content("~/Script/jquery-1.10.2.min.js")"></script>
+    <!-- Required jQuery and jQuery UI Javascript references -->
+  @*  <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.min.js")"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui.min")"></script>
+    <script src="@Url.Content("//code.jquery.com/jquery-1.10.2.js")"></script>
+    <script src="@Url.Content("//code.jquery.com/ui/1.11.2/jquery-ui.js")"></script>*@
+    
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jquery")
+    
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink(WebConfigurationManager.AppSettings["appName"], "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Stories", "Index", "Stories")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("//code.jquery.com/jquery-1.10.2.js")
+    @Scripts.Render("//code.jquery.com/ui/1.11.2/jquery-ui.js")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

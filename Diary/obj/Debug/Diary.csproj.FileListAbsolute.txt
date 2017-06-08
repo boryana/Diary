@@ -1,0 +1,60 @@
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Diary.dll.config
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Diary.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Diary.pdb
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Antlr3.Runtime.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\EntityFramework.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\EntityFramework.SqlServer.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Newtonsoft.Json.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Helpers.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Mvc.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Optimization.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Razor.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.Deployment.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.Razor.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\WebGrease.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\EntityFramework.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\EntityFramework.SqlServer.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Helpers.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Mvc.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Optimization.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.Razor.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.Deployment.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\System.Web.WebPages.Razor.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Antlr3.Runtime.pdb
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\bin\Newtonsoft.Json.xml
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\obj\Debug\Diary.csprojResolveAssemblyReference.cache
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\obj\Debug\Diary.dll
+c:\users\bobolek\documents\visual studio 2013\Projects\Diary\Diary\obj\Debug\Diary.pdb
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Diary.dll.config
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Diary.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Diary.pdb
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Antlr3.Runtime.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\EntityFramework.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\EntityFramework.SqlServer.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Newtonsoft.Json.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Helpers.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Mvc.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Optimization.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Razor.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.Razor.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\WebGrease.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\EntityFramework.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\EntityFramework.SqlServer.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Helpers.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Mvc.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Optimization.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.Razor.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\System.Web.WebPages.Razor.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Antlr3.Runtime.pdb
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\bin\Newtonsoft.Json.xml
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\obj\Debug\Diary.csprojResolveAssemblyReference.cache
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\obj\Debug\Diary.dll
+C:\Users\Boryana\Desktop\Diery\boryana.asenova@gmail.com\Diary\Diary\obj\Debug\Diary.pdb

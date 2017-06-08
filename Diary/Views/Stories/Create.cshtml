@@ -1,0 +1,140 @@
+﻿@model Diary.Models.Story
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm("Upload", "Stories", FormMethod.Post,
+                           new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal" style="width:50%;margin-left:auto;margin-right:auto;">
+        <h4>Story</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.storyTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.storyTitle, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.storyTitle, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            
+            @Html.LabelFor(model => model.dateStory, htmlAttributes: new { @class = "control-label col-md-2"})
+            
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dateStory, new { htmlAttributes = new { @class = "form-control date-picker datefield", @Value = @DateTime.Now.ToShortDateString(), type = "date" } })
+                @Html.ValidationMessageFor(model => model.dateStory, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <!--<input type="text" id="ratingScore" class="ratingScore" value="3" />-->
+        <div class="form-group">
+            @Html.LabelFor(model => model.rateOfStory, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10 rating">
+                @Html.EditorFor(model => model.rateOfStory, new { htmlAttributes = new { @class = "form-control ratingScore", @Value = 3 } })
+                @Html.ValidationMessageFor(model => model.rateOfStory, "", new { @class = "text-danger" })
+                <div class="rating form-control" style="margin-left:0px;padding-left:0px;width:150px;border-style:none;">
+                <span id="5" class="glyphicon glyphicon-star"></span>
+                <span id="4" class="glyphicon glyphicon-star"></span>
+                <span id="3" class="glyphicon glyphicon-star" style="color:red;"></span>
+                <span id="2" class="glyphicon glyphicon-star" style="color:red;"></span>
+                <span id="1" class="glyphicon glyphicon-star" style="color:red;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.textStory, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.textStory, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.textStory, "", new { @class = "text-danger" })
+            </div>
+        </div>
+       
+         @*  <div class="form-group" style="display:hidden;">
+        @Html.LabelFor(model => model.imageStory, htmlAttributes: new { @class = "control-label col-md-2" })
+       <div class="col-md-10" style="display:hidden;">
+           @Html.EditorFor(model => model.imageStory, new { htmlAttributes = new { @class = "form-control" } })
+           @Html.ValidationMessageFor(model => model.imageStory, "", new { @class = "text-danger" })
+       </div>
+    </div>*@
+        <style>
+                            .rating span {
+                  font-size: 25px;
+                  cursor: pointer;
+                  float: right; //remove 'float right' for right to left
+                }
+                .rating span:hover, .rating span:hover ~ span{
+                  color: red; //gold or any other color 
+                }
+            .ratingScore{display:none;}
+        </style>
+        
+        
+
+
+        <div class="form-group">
+
+            
+                @Html.LabelFor(model => model.imageStory, htmlAttributes: new { @class = "control-label col-md-2" })
+                <input type="file" name="file" id="file" class="form-control" style="margin-left:0px;padding-left:0px;border-style:none;" />
+            </div>
+        <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" style="display:block; margin-left:20%;margin-right:auto;background-color:black;color:white;" />
+
+        </div>
+           @*@Html.LabelFor(model => model.imageStory, htmlAttributes: new { @class = "control-label col-md-2"})
+    <div class="col-md-10">
+         <input type="file" name="file" id="file" class="form-control" />
+         @Html.ValidationMessage("uploadError")
+     </div
+            }
+        </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>*@
+    </div>
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+}
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        }
+}
+<script type="text/javascript">
+    $( document ).ready(function() {
+            // This will make every element with the class "date-picker" into a DatePicker element
+            $('.date-picker').datepicker();
+            $('#dateStory').datapicker();
+           // $(".ratingScore").val(3);
+    })
+    $('.rating span').click(function () {
+        itemClicked = ($(this).attr('id'));
+        $(".rating span").css({ "color": "black" });
+        $(".ratingScore").val(itemClicked);
+     //   alert($(".ratingScore").val());
+        for(i= 1;i<=itemClicked;i++)
+        {
+            id="#"+i
+            $(id).css({ "color": "red" });
+        }
+    })
+    
+</script>
+
+@*@section styles{
+
+<link href="@Url.Content("//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css")" rel="stylesheet" type="text/css" />
+    
+}*@

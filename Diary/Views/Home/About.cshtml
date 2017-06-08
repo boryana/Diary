@@ -1,0 +1,14 @@
+﻿@using System.Configuration;
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+
+<div>
+    <label>Name: </label>@ConfigurationManager.AppSettings["myName"]
+</div>
+<div> <label>Born: </label>@ConfigurationManager.AppSettings["born"]</div>
+<div> <label> Info: </label>@ConfigurationManager.AppSettings["info"]</div>
+<img src=@Url.Content("~/Content/Images/P5230028.png") alt="My photo" width="300px" height="auto" />
+
+
